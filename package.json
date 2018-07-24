@@ -1,0 +1,17 @@
+{
+  "name": "strigoaica-strategy",
+  "version": "0.0.1",
+  "description": "Strigoaica - Strategy",
+  "main": "index.js",
+  "dependencies": {
+    "case": "^1.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefanos Chrs <chrsstefanos@gmail.com>",
+  "license": "MIT"
+}
