@@ -1,2 +1,2 @@
-# [Strigoaica](https://github.com/stefanoschrs/strigoaica) - Abstract Strategy
+# [Strigoaica](https://github.com/strigoaica/strigoaica) - Abstract Strategy
 
