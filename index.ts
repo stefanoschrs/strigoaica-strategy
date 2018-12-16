@@ -58,6 +58,9 @@ export abstract class Strategy {
    */
   static extractMergeValues (text) {
     const values = text.match(/\*\|(\w*)\|\*/g)
+    if (!values) {
+      return []
+    }
 
     return values.reduce((acc, curr) => {
       if (!acc.includes(curr)) {
