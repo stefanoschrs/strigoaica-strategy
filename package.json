@@ -1,6 +1,6 @@
 {
   "name": "strigoaica-strategy",
-  "version": "0.0.2",
+  "version": "0.0.3-0",
   "description": "Strigoaica - Strategy",
   "main": "index.js",
   "dependencies": {
