@@ -4,7 +4,7 @@
   "description": "Strigoaica - Strategy",
   "main": "index.js",
   "dependencies": {
-    "case": "^1.5.5"
+    "case": "^1.6.0"
   },
   "devDependencies": {
     "@types/node": "^10.5.2"

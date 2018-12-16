@@ -46,9 +46,8 @@ var Strategy = /** @class */ (function () {
      * Aux
      */
     Strategy.extractMergeValues = function (text) {
-        return text
-            .match(/\*\|(\w*)\|\*/g)
-            .reduce(function (acc, curr) {
+        var values = text.match(/\*\|(\w*)\|\*/g);
+        return values.reduce(function (acc, curr) {
             if (!acc.includes(curr)) {
                 acc.push(curr);
             }

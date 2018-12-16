@@ -57,14 +57,14 @@ export abstract class Strategy {
    * Aux
    */
   static extractMergeValues (text) {
-    return text
-      .match(/\*\|(\w*)\|\*/g)
-      .reduce((acc, curr) => {
-        if (!acc.includes(curr)) {
-          acc.push(curr)
-        }
+    const values = text.match(/\*\|(\w*)\|\*/g)
 
-        return acc
-      }, [])
+    return values.reduce((acc, curr) => {
+      if (!acc.includes(curr)) {
+        acc.push(curr)
+      }
+
+      return acc
+    }, [])
   }
 }
